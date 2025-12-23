@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<JUCERPROJECT id="J0UFq7" name="TeLeQ" projectType="audioplug" useAppConfig="0"
+              addUsingNamespaceToJuceHeader="0" jucerFormatVersion="1" companyName="CRAB AUDIO"
+              version="0.0.1" pluginDesc="Creative Eq" pluginVST3Category="EQ,Filter"
+              pluginFormats="buildAAX,buildAU,buildStandalone,buildVST3">
+  <MAINGROUP id="YnSrwh" name="TeLeQ">
+    <GROUP id="{2ED03EC7-A2F1-EC18-E67F-AD69FB01E4F0}" name="Source">
+      <FILE id="SweAE4" name="CustomSlider.cpp" compile="1" resource="0"
+            file="Source/CustomSlider.cpp"/>
+      <FILE id="Z4ctVe" name="CustomSlider.h" compile="0" resource="0" file="Source/CustomSlider.h"/>
+      <FILE id="Y1Rlt1" name="BarMeterComponent.cpp" compile="1" resource="0"
+            file="Source/BarMeterComponent.cpp"/>
+      <FILE id="U4bDZ5" name="BarMeterComponent.h" compile="0" resource="0"
+            file="Source/BarMeterComponent.h"/>
+      <FILE id="d6qNzC" name="HorizontalSelector.cpp" compile="1" resource="0"
+            file="Source/HorizontalSelector.cpp"/>
+      <FILE id="JUqoRG" name="HorizontalSelector.h" compile="0" resource="0"
+            file="Source/HorizontalSelector.h"/>
+      <FILE id="lcwopK" name="CustomLookAndFeel.cpp" compile="1" resource="0"
+            file="Source/CustomLookAndFeel.cpp"/>
+      <FILE id="mJzJYu" name="CustomLookAndFeel.h" compile="0" resource="0"
+            file="Source/CustomLookAndFeel.h"/>
+      <FILE id="APbmsl" name="PluginProcessor.cpp" compile="1" resource="0"
+            file="Source/PluginProcessor.cpp"/>
+      <FILE id="mHRt3B" name="PluginProcessor.h" compile="0" resource="0"
+            file="Source/PluginProcessor.h"/>
+      <FILE id="YhXHtW" name="PluginEditor.cpp" compile="1" resource="0"
+            file="Source/PluginEditor.cpp"/>
+      <FILE id="KvuZx5" name="PluginEditor.h" compile="0" resource="0" file="Source/PluginEditor.h"/>
+      <FILE id="Ij3eo5" name="Logo.svg" compile="0" resource="1" file="Source/Logo.svg"/>
+      <FILE id="f1na3H" name="backgroundGradient.png" compile="0" resource="1"
+            file="Source/backgroundGradient.png"/>
+      <FILE id="kzmfR2" name="Lato-Black.ttf" compile="0" resource="1" file="Source/Lato-Black.ttf"/>
+      <FILE id="mLxVEM" name="PHONES.TTF" compile="0" resource="1" file="Source/PHONES.TTF"/>
+      <FILE id="puAmoz" name="FrankRuehlCLM.ttf" compile="0" resource="1"
+            file="Source/FrankRuehlCLM.ttf"/>
+    </GROUP>
+  </MAINGROUP>
+  <MODULES>
+    <MODULE id="juce_analytics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_animation" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_basics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_devices" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_formats" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_plugin_client" showAllCode="1" useLocalCopy="0"
+            useGlobalPath="1"/>
+    <MODULE id="juce_audio_processors" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_utils" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_box2d" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_core" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_cryptography" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_data_structures" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_dsp" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_events" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_graphics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_gui_basics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_gui_extra" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_osc" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+  </MODULES>
+  <JUCEOPTIONS JUCE_STRICT_REFCOUNTEDPOINTER="1" JUCE_VST3_CAN_REPLACE_VST2="0"/>
+  <EXPORTFORMATS>
+    <VS2022 targetFolder="Builds/VisualStudio2022">
+      <CONFIGURATIONS>
+        <CONFIGURATION isDebug="1" name="Debug" targetName="TeLeQ"/>
+        <CONFIGURATION isDebug="0" name="Release" targetName="TeLeQ"/>
+      </CONFIGURATIONS>
+      <MODULEPATHS>
+        <MODULEPATH id="juce_analytics" path="../../JUCE/JUCE/modules"/>
+        <MODULEPATH id="juce_animation" path="../../JUCE/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_basics" path="../../JUCE/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_devices" path="../../JUCE/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_formats" path="../../JUCE/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_plugin_client" path="../../JUCE/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_processors" path="../../JUCE/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_utils" path="../../JUCE/JUCE/modules"/>
+        <MODULEPATH id="juce_box2d" path="../../JUCE/JUCE/modules"/>
+        <MODULEPATH id="juce_core" path="../../JUCE/JUCE/modules"/>
+        <MODULEPATH id="juce_cryptography" path="../../JUCE/JUCE/modules"/>
+        <MODULEPATH id="juce_data_structures" path="../../JUCE/JUCE/modules"/>
+        <MODULEPATH id="juce_dsp" path="../../JUCE/JUCE/modules"/>
+        <MODULEPATH id="juce_events" path="../../JUCE/JUCE/modules"/>
+        <MODULEPATH id="juce_graphics" path="../../JUCE/JUCE/modules"/>
+        <MODULEPATH id="juce_gui_basics" path="../../JUCE/JUCE/modules"/>
+        <MODULEPATH id="juce_gui_extra" path="../../JUCE/JUCE/modules"/>
+        <MODULEPATH id="juce_osc" path="../../JUCE/JUCE/modules"/>
+      </MODULEPATHS>
+    </VS2022>
+  </EXPORTFORMATS>
+</JUCERPROJECT>
